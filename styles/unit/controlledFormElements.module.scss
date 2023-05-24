@@ -1,0 +1,75 @@
+.labelWithInput {
+  position: relative;
+  label {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1c1c1c;
+    padding-top: 0.3rem;
+    // padding-bottom: 1rem;
+  }
+
+  input {
+    // height: 3rem;
+    // width: 15rem;
+    padding: 0.3rem 0.7rem;
+    border: 1px solid #bababc;
+    font-size: 0.8rem;
+    font-family: "system-ui";
+  }
+
+  input[type="date"] {
+    font-size: 0.75rem;
+  }
+}
+
+.labelWithSelect {
+  label {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #929db0;
+    width: 35%;
+    text-align: right;
+    padding-top: 0.3rem;
+  }
+  select {
+    font-size: 0.8rem;
+    border-color: var(--input-border-color);
+  }
+}
+
+.required {
+  color: var(--danger-btn-color);
+}
+
+.controlledInput {
+  textarea {
+    border-color: var(--input-border-color);
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    font-family: inherit;
+  }
+}
+
+.icon {
+  display: inline-block;
+  svg {
+    height: 1rem;
+    width: 1rem;
+  }
+}
+
+.passwordInput {
+  position: relative;
+  width: fit-content;
+  input {
+    padding-right: 2rem !important;
+  }
+}
+
+.pswdIcon {
+  cursor: pointer;
+  position: absolute;
+  right: 3%;
+  top: 53%;
+}

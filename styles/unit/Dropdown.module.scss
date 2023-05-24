@@ -1,0 +1,122 @@
+.dropdown {
+  width: fit-content;
+  position: relative;
+  div,
+  span {
+    text-overflow: initial;
+    word-break: break-all;
+    // display: flex;
+    // align-items: center;
+    // padding: 0.5rem;
+  }
+}
+.multiSelectActive {
+  background-color: #599522;
+}
+.multiSelectUnActive {
+  background-color: #505050;
+}
+.dropdown .dropdownBtn {
+  padding: 5px 3px;
+  color: #2f2f2f;
+  border: 1px solid #e3e4e5;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  // border-radius: 6px;
+  img {
+    padding: 0px 5px;
+  }
+}
+
+.dropdown .dropdownBtnFilter {
+  padding: 0.5rem;
+
+  color: #000;
+  background-color: #ffffff;
+  border: 1.5px solid #d3d3d3;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  // border-radius: 6px;
+}
+.dropdown .dropdownBtnFilterActive {
+  padding: 0.5rem;
+  color: #000;
+  background-color: #5995221a;
+  border: 2px solid #599522;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  // border-radius: 6px;
+}
+
+.dropdownContentMulti {
+  position: absolute;
+  top: 110%;
+  right: 1%;
+  padding: 10px;
+  background: white;
+  font-weight: 400;
+  z-index: 120;
+  box-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.3);
+  width: 14em !important;
+  input[type="checkbox"] {
+    accent-color: #599522;
+  }
+}
+
+.dropdown .dropdownContent {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  padding: 10px;
+  background: white;
+  font-weight: 400;
+  overflow: scroll;
+  max-height: 100vh;
+  width: 100%;
+  z-index: 120;
+  box-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.3);
+}
+.dropdownScrollHeight {
+  overflow: scroll;
+  height: 350px;
+}
+.dropdownItem {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.dropdownItemSub {
+  padding: 10px 0px 10px 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #f4f4f4;
+}
+
+.toogleMapView {
+  display: flex;
+  cursor: pointer;
+  span {
+    padding: 7px;
+  }
+}
+
+@media (max-width: 650px) {
+  .dropdown {
+    width: 290px;
+  }
+  .dropdown .dropdownBtn {
+    padding: 10px 18px;
+  }
+}

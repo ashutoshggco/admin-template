@@ -1,0 +1,23 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "system-ui";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  --sidebar-width: 13rem;
+  padding-left: var(--sidebar-width);
+  width: 100vw;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+/* x   */

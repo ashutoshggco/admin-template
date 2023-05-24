@@ -1,0 +1,94 @@
+.confirmed {
+  color: #ffffff;
+  background-color: #599522;
+  border: 2px solid #599522;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+
+.expired {
+  background-color: #B64F4F;
+  border: 2px solid #B64F4F;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+.cancellationRequested {
+  background-color:#AF55CE;
+  border: 2px solid#AF55CE;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+.requested {
+  background-color:#FF9900;
+  border: 2px solid#FF9900;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+
+.open {
+  background-color: #ff8200;
+  border: 2px solid #ff8200;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+
+.cancelled {
+  background-color: #D72525;
+  border: 2px solid #D72525;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+
+.used {
+  background-color: #525257;
+  border: 2px solid #525257;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+
+.inUse {
+  background-color: #4E821E;
+  border: 2px solid #4E821E;
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 14px;
+}
+
