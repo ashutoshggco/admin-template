@@ -29,3 +29,16 @@ The `main` branch combines both the authentication and dashboard functionality. 
 To run the project, follow these steps:
 
 1. Clone the repository:
+
+2. Switch to the desired branch (`auth`, `dashboard`, or `main`):
+
+3. Install dependencies:
+
+4. Set up the API URL:
+- Open the project in your preferred code editor.
+- Locate the API URL configuration file (e.g., `config.js` or similar).
+- Update the environment variable `API_URL` with the actual URL of your API.
+
+5. Start the development server:
+
+6. Access the application in your web browser: http://localhost:3000/
