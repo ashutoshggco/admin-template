@@ -8,7 +8,7 @@ This is a Next.js admin project template that provides a starting point for buil
 
 The `auth` branch contains the authentication functionality, including login, signup, and forgot password features. This branch serves as the foundation for user authentication in the application.
 
-#### SignUp Component
+#### SignUp Page
 
 The `SignUp` component handles the user sign up functionality. Here's a breakdown of what the code does:
 
@@ -30,7 +30,7 @@ The `SignUp` component handles the user sign up functionality. Here's a breakdow
   - Provides a submit button to sign up.
   - Includes a link to the login page.
 
-#### Login Component
+#### Login Page
 
 The `Login` component handles the user sign up functionality. Here's a breakdown of what the code does:
 
