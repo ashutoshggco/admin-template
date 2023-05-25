@@ -1,5 +1,5 @@
 import styles from "/styles/Home.module.scss";
-import { TableHeading } from "../helper/sampleText";
+import { TableHeading } from "../helper/TableHeading";
 import { useEffect, useState, useRef } from "react";
 import { getTableList, updateTableList } from "./api/NetworkApi";
 import { Loader } from "/components/unit/Loader";
